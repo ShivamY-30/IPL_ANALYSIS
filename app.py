@@ -108,7 +108,7 @@ if option == 'Season Wise Analysis':
 
         # Create the stem plot
         fig, ax = plt.subplots(figsize=(10, 10))
-        ax.stem(wins['WinningTeam'], wins['count'], basefmt=" ", use_line_collection=True)
+        ax.stem(wins['WinningTeam'], wins['count'], basefmt=" ")
 
         # Set plot labels and title
         plt.title("Top Teams Won per Season")
